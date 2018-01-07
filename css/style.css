@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.container {
+  margin: auto;
+  width: 960px;
+}
+.clear {
+  content: "";
+  clear: both;
+  height: 0;
+}
+.content-right {
+  float: right;
+}
+p {
+  text-indent: 30px;
+}
+.header {
+  background: #ffffff url(../images/main/header/header-bg.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.header-logo {
+  margin-right: 80px;
+  float: right;
+  text-align: right;
+}
+.header-logo-caption {
+  margin-top: 15px;
+  font-size: 22px;
+  color: #fff;
+}
+.header-logo-name {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header-logo-img {
+  display: inline-block;
+  max-width: 200px;
+}
+.nav {
+  width: 100%;
+  text-align: center;
+  background-color: #333333;
+}
+.nav-list {
+  list-style: none;
+  margin: 0;
+}
+.nav-list-link {
+  display: inline-block;
+  font-size: 26px;
+  padding: 10px 40px;
+  color: #fff;
+  font-style: italic;
+}
+.main {
+  padding: 70px 0px;
+  min-height: 500px;
+}
+.main-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 30px 30px;
+  color: #990000;
+}
+.main-text {
+  line-height: 20px;
+}
+.image-bg {
+  background: #ffffff url(../images/main/main/image-bg.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 250px;
+}
+.section-1 {
+  padding: 70px 0 40px;
+}
+.section-1-right {
+  width: 60%;
+}
+.section-1-title {
+  text-align: right;
+  text-transform: uppercase;
+  color: #b7b7b7;
+  font-style: italic;
+}
+.section-1-secondary {
+  font-weight: 300;
+}
+.footer {
+  padding-top: 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#09ffff), to(#090bfc));
+  background: linear-gradient(90deg, #09ffff, #090bfc);
+}
+.footer-nav {
+  text-align: center;
+}
+.footer-list {
+  list-style: none;
+  margin: 40px;
+}
+.footer-list-link {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 2px;
+  text-transform: uppercase;
+}
+.footer-left {
+  width: 30%;
+  float: left;
+  font-size: 14px;
+}
+.footer-adress {
+  margin: 40px 0;
+}
+.footer-banners img {
+  width: 88px;
+  height: 31px;
+}
+.footer-right {
+  width: 50%;
+  float: right;
+  font-size: 14px;
+  text-align: right;
+}
+.footer .copyright {
+  margin: 50px 0 40px 20px;
+}
