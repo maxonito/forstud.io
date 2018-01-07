@@ -16,11 +16,14 @@ body {
 .content-right {
   float: right;
 }
+.content-left {
+  float: left;
+}
 p {
   text-indent: 30px;
 }
 .header {
-  background: #ffffff url(../images/main/header/header-bg.jpg) center no-repeat;
+  background: #ffffff url(../images/header-bg.jpg) center no-repeat;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -59,10 +62,7 @@ p {
 }
 .nav-list-link {
   display: inline-block;
-  font-size: 26px;
   padding: 10px 40px;
-  color: #fff;
-  font-style: italic;
 }
 .main {
   padding: 70px 0px;
@@ -78,7 +78,7 @@ p {
   line-height: 20px;
 }
 .image-bg {
-  background: #ffffff url(../images/main/main/image-bg.jpg) center no-repeat;
+  background: #ffffff url(../images/image-bg.jpg) center no-repeat;
   background-size: cover;
   min-height: 250px;
 }
@@ -111,9 +111,6 @@ p {
 }
 .footer-list-link {
   display: inline-block;
-  font-size: 20px;
-  padding: 10px 2px;
-  text-transform: uppercase;
 }
 .footer-left {
   width: 30%;
